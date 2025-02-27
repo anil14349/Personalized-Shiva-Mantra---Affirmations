@@ -116,8 +116,13 @@ if st.button("Generate Mantra 🙏"):
     else:
         st.error("Please enter your name to generate a personalized mantra.")
 
-# Footer
+# Add footer with LinkedIn profile
 st.markdown("---")
 st.markdown(
-    "Made with ❤️ and the blessings of Lord Shiva 🕉️"
+    """
+    <div style='text-align: center; padding: 20px; background-color: rgba(255, 255, 255, 0.1); border-radius: 10px; margin-top: 30px;'>
+        <p style='margin: 0; color: #ffffff;'>Created with ❤️ by <a href='https://www.linkedin.com/in/etagowni/' target='_blank' style='color: #00a0dc; text-decoration: none;'>Anil Kumar Etagowni</a></p>
+    </div>
+    """,
+    unsafe_allow_html=True
 )
